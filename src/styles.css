@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: auto;
+    background-color: rgb(238, 238, 46);
+    width: 20%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{ 
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240, 105, 56);
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    scale: 120%;
+}
